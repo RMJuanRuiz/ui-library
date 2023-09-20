@@ -1,0 +1,17 @@
+<div
+  cdkDropListOrientation="horizontal"
+  cdkDropList
+  (cdkDropListDropped)="sortCards($event)"
+>
+  <div cdkDrag class="card m-4" *ngFor="let card of cards">
+    <div class="card-header">
+      <p class="card-header-title">{{ card.title }}</p>
+    </div>
+    <div class="card-content">
+      <div class="content">{{ card.description }}</div>
+    </div>
+    <div class="card-footer">
+      <a [href]="card.link" class="card-footer-item">View on Wikipedia</a>
+    </div>
+  </div>
+</div>
