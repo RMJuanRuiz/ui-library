@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+  <head>
+    <meta charset="utf-8" />
+    <title>UiElements</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.ef46db3751d8e999.css" />
+  </head>
+  <body>
+    <div class="container is-fluid">
+      <h1 class="title">my angular element</h1>
+      <copy-button></copy-button>
+    </div>
+
+    <script>
+      const el = document.getElementsByTagName("copy-button")[0];
+      el.setAttribute("data", "some data");
+      el.addEventListener("copied", () => alert("copied to clipboard!!"));
+    </script>
+    <script src="polyfills.8bd5483f6fe4352e.js" type="module"></script>
+    <script src="main.014785c669f31546.js" type="module"></script>
+  </body>
+</html>
