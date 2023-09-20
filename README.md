@@ -1,4 +1,9 @@
-# MyComponents
+# UI Library
+
+Component UI library using Angular CLI, Angular CDK, Angular Elements and Bulma
+
+Published to npm for testing purposes. https://www.npmjs.com/package/ui-controls-juan-testing
+![Screenshot 2023-09-19 at 7 33 06 PM](https://github.com/RMJuanRuiz/ui-library/assets/49765252/6a42efc8-9c37-4ddd-afa6-c290ef877d3e)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
 
